@@ -90,7 +90,7 @@ header{
   display: flex;
   max-width: 840px;
   width: 60%;
-  min-height: 600px;
+  height: 600px;
 }
 
 .world-news{
@@ -216,9 +216,6 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.section-header>h2{
   margin-bottom: 40px;
 }
 
@@ -270,7 +267,7 @@ header{
   flex-direction: column;
   justify-content: space-between;
   padding: 40px;
-  min-height: 430px;
+  height: 430px;
   color: white;
 }
 
