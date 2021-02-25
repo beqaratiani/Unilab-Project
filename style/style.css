@@ -314,10 +314,14 @@ header{
   margin: 10px 0;
 }
 
+.underline{
+  text-decoration: underline;
+}
+
 /* Footer */
 
 #footer{
-  padding: 60px;
+  padding: 60px 0;
   background-color: #a6adb4;
   color: white;
 }
@@ -339,6 +343,11 @@ header{
   font-weight: bold;
 }
 
+.nav-cols{
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-col{
   margin-left: 57px;
 }
@@ -352,7 +361,7 @@ header{
 }
 
 .footer-form{
-  margin-left: 40px;
+  margin: 0px 40px;
 }
 
 .footer-form input{
@@ -387,7 +396,7 @@ header{
 }
 
 .footer-icons{
-  width: 160px;
+  min-width: 160px;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
