@@ -1,0 +1,116 @@
+.world-container{
+    background-image: url(../images/Storyworld.png);
+}
+
+
+.story-header-wrapper, #main-section{
+    max-width: 1160px;
+    width: 90%;
+    margin: auto;
+}
+
+.story-header-wrapper{
+    margin: 40px auto;
+}
+
+.world-container{
+    text-align: center;
+}
+
+.world-news{
+    width: 320px;   
+}
+
+.world-header{
+    font-size: 32px;
+}
+
+.world-header::after{
+    width: 40px;
+    margin: 20px auto;
+    background-color: #FA6980;
+}
+
+.redhead-story{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.news-form{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-form>label{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.news-form>input, .news-form>select{
+    margin-bottom: 40px;
+    padding: 12px 20px;
+    border: 2px solid #EBEDED;
+    border-radius: 7px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.search{
+    width: 134px;
+    font-size: 11px;
+}
+
+.card{
+    color: #A6ADB4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.card-info{
+    padding: 0;
+}
+
+.card-1{
+    color: black;
+}
+
+.card-2, .card-3{
+    letter-spacing: 2px;
+}
+
+.card img{
+    width: 30px;
+}
+
+.trending-container{
+    border-top: 2px solid #EBEDED;
+    border-bottom: 2px solid #EBEDED;
+    padding: 40px;
+}
+
+.card-info>p{
+    margin-bottom: 20px;
+}
+
+.small-articles{
+    max-width: 1160px;
+    width: 100% !important;
+}
+
+.story-big-info{
+    margin: 40px auto;
+    width: 75%;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.all-articles{
+    border-bottom: 2px solid #EBEDED;
+    color: #A6ADB4;
+}
