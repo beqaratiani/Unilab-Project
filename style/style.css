@@ -70,6 +70,14 @@ header{
   font-size: 14px;
 }
 
+.nav-active{
+  transform: translateX(0%) !important;
+}
+
+.added{
+  display: none !important;
+}
+
 .burger-bar{
   display: none !important;
 }
@@ -317,7 +325,11 @@ header{
 
 /* Footer */
 
-#footer{
+.mobile-footer{
+  display: none;
+}
+
+#footer, .mobile-footer{
   padding: 60px 0;
   background-color: #a6adb4;
   color: white;
