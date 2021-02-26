@@ -294,6 +294,10 @@ header{
   background-position: center;
 }
 
+.article.article-2 {
+    margin-top: 40px;
+}
+
 .large-bottom>p{
   margin: 10px 0;
 }
