@@ -29,7 +29,8 @@
     }
 
     .cards{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 
     .card-1{
@@ -66,10 +67,14 @@
     }
 
     .pages{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 330px;
         margin: auto;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         margin-top: 40px;
         color: #A6ADB4;
     }

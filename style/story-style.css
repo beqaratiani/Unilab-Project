@@ -12,8 +12,12 @@
 .story-header-wrapper{
     margin: 40px auto;
     font-size: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .story-header-wrapper .fa-home{
@@ -52,8 +56,13 @@
 
 .news-form{
     width: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .news-form>label{
@@ -67,7 +76,8 @@
     border: 2px solid #EBEDED;
     border-radius: 7px;
     outline: 0;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .search{
@@ -77,9 +87,16 @@
 
 .card{
     color: #A6ADB4;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: transparent;
 }
 
