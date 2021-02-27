@@ -115,4 +115,8 @@
     .pages{
         width: 300px;
     }
+
+    .story-header-wrapper{
+        display: none;
+    }
 }
