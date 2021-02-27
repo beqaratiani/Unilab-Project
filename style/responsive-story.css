@@ -109,14 +109,14 @@
     .more-container{
         width: 90%
     }
+
+    .story-header-wrapper{
+        display: none;
+    }
 }
 
 @media (max-width: 365px){
     .pages{
         width: 300px;
-    }
-
-    .story-header-wrapper{
-        display: none;
     }
 }
