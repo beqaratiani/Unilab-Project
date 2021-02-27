@@ -11,6 +11,18 @@
 
 .story-header-wrapper{
     margin: 40px auto;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.story-header-wrapper .fa-home{
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.divider{
+    margin: 0 20px;
 }
 
 .world-container{
@@ -113,4 +125,17 @@
 .all-articles{
     border-bottom: 2px solid #EBEDED;
     color: #A6ADB4;
+}
+
+.pages{
+    display: none;
+}
+
+.story-added{
+    display: none;
+    margin-bottom: 40px;
+}
+
+.story-added h4{
+    margin-bottom: 40px;
 }
